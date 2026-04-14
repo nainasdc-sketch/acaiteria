@@ -1,0 +1,54 @@
+        /* Cabeçalho */
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header img {
+            height: 50px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header .box_branding {
+            display: flex;
+            flex-direction: row;
+            column-gap: 10px;
+        }
+
+        /* Estilização do perfil */
+        .perfil-container {
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            margin: 0 0 0 auto;
+        }
+
+        .perfil-container img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .perfil-container span {
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        .logout-btn {
+            background-color: transparent;
+            border: none;
+            color: white;
+            font-size: 0.9rem;
+            cursor: pointer;
+            text-decoration: underline;
+        }
